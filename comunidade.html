@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comunidade | TechConnect</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="comunidade.css" />
+</head>
+<body>
+  <header>
+    <h1>TechConnect</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="comunidade.html">Comunidade</a>
+      <a href="repositorios.html">Repositórios</a>
+    </nav>
+  </header>
+
+  <main class="community-container">
+    <section class="community-header">
+      <h2>Fórum da Comunidade</h2>
+      <p>Compartilhe dúvidas, dicas e colabore com outros devs!</p>
+    </section>
+
+    <section class="new-post">
+      <textarea placeholder="Compartilhe uma ideia, dúvida ou projeto..." rows="4"></textarea>
+      <button>Publicar</button>
+    </section>
+
+    <section class="post-feed">
+      <div class="post-card">
+        <div class="post-header">
+          <strong>Maria Andrade</strong>
+          <span>@maria.dev</span>
+        </div>
+        <p>Alguém já usou Prisma com PostgreSQL em produção? Alguma dica de performance?</p>
+        <div class="post-actions">
+          <button>💬 Comentar</button>
+          <button>👍 Curtir</button>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-header">
+          <strong>Lucas Gomes</strong>
+          <span>@lucasg</span>
+        </div>
+        <p>Compartilhei no GitHub uma lib de validação de formulários para React! Feedbacks são bem-vindos.</p>
+        <div class="post-actions">
+          <button>💬 Comentar</button>
+          <button>👍 Curtir</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TechConnect. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

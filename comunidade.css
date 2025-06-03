@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.community-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.community-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.community-header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.new-post {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.new-post textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.new-post button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.post-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.post-header strong {
+  font-size: 1rem;
+  color: #1e40af;
+}
+
+.post-header span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.post-actions {
+  margin-top: 15px;
+}
+
+.post-actions button {
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

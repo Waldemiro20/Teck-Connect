@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.repositorios {
+  padding: 60px 20px;
+  background-color: #e2e8f0;
+  text-align: center;
+}
+
+.repositorios h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+.repo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.repo-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.repo-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1d4ed8;
+}
+
+.repo-card p {
+  margin-bottom: 15px;
+  color: #475569;
+}
+
+.repo-card a {
+  color: #3b82f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 16px;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.botao:hover {
+  background-color: #2563eb;
+}
